@@ -1,0 +1,14 @@
+{
+  "fill": {"automatic-gradient": "srgb:0.05,0.48,0.14,1"},
+  "groups": [{
+    "layers": [{
+      "image-name": "Frogframe-aligned.png",
+      "name": "Frogframe",
+      "glass": false,
+      "position": {"scale": 0.92, "translation-in-points": [0, 0]}
+    }],
+    "shadow": {"kind": "neutral", "opacity": 0},
+    "translucency": {"enabled": false, "value": 0}
+  }],
+  "supported-platforms": {"squares": ["macOS"]}
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "phototab",
+  "account_id": "YOUR_CLOUDFLARE_ACCOUNT_ID",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-09",
+  "r2_buckets": [{ "binding": "PHOTOS", "bucket_name": "phototab" }],
+  "durable_objects": { "bindings": [{ "name": "UPDATES", "class_name": "PhotoUpdates" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["PhotoUpdates"] }]
+}

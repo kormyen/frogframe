@@ -1,0 +1,4 @@
+{
+  "endpoint": "https://YOUR_WORKER.YOUR_SUBDOMAIN.workers.dev",
+  "token": "REPLACE_WITH_YOUR_VIEWER_TOKEN"
+}

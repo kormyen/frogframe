@@ -1,0 +1,17 @@
+{
+  "name": "phototab-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:realtime": "node checks/realtime.mjs",
+    "check:config": "node scripts/wrangler-local.mjs --check-config",
+    "dev": "node scripts/wrangler-local.mjs dev",
+    "deploy": "node scripts/wrangler-local.mjs deploy",
+    "wrangler": "node scripts/wrangler-local.mjs"
+  },
+  "devDependencies": {
+    "miniflare": "5.20261104.0-beta",
+    "wrangler": "4.158.0"
+  }
+}
