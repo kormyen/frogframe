@@ -1,5 +1,7 @@
 # Frogframe
 
+![Frogframe Mac app and Android photo frame](docs/images/frogframe-overview.jpg)
+
 Frogframe turns an Android tablet into a digital photo frame. Use the native Mac app to manage photos and keep a local folder in sync.
 
 Images are stored in your own private Cloudflare R2 bucket. The tablet uses a viewing token; the Mac app uses a separate management token. Duplicate files are skipped, and downloaded images are cached locally.
